@@ -84,6 +84,11 @@ div.announcements {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+div.trending {
+    display: grid;
+    grid: repeat(4, 1fr) / 80px 1fr;
+}
+
 h3.announcements {
     grid-area: 1 / 2 / 2 / 3;
 }
