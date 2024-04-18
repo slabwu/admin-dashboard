@@ -23,15 +23,23 @@ body {
 
 .top-header {
     display: grid;
-    grid-template-columns: 100px 1fr 100px 100px 200px;
+    grid-template-columns: 30px 1fr 30px 30px 150px;
     gap: 10px;
     height: 40px;
+    align-content: center;
 }
 
 .bottom-header {
     display: grid;
     grid-template-columns: 100px 1fr repeat(3, 100px);
     gap: 10px;
+}
+
+.search {
+    background-color: gainsboro;
+    min-width: 10px;
+    border-radius: 20px;
+    height: 25px;
 }
 
 .button {
@@ -50,6 +58,6 @@ body {
 }
 
 .body {
-    background-color: grey;
+    background-color: gainsboro;
     grid-area: 2 / 2 / 3 / 3;
 }
