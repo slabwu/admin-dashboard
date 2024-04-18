@@ -73,6 +73,10 @@ body {
 
 div.projects {
     grid-area: 2 / 1 / 5 / 2;
+    display: grid;
+    grid: 1fr 1fr 1fr / 1fr 1fr;
+    background-color: gainsboro;
+    gap: 20px;
 }
 
 h3.announcements {
