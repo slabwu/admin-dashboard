@@ -18,6 +18,18 @@ body {
 .header {
     background-color: white;
     grid-area: 1 / 2 / 2 / 3;
+    padding: 20px;
+}
+
+.top-header {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 100px 200px;
+    height: 50%;
+}
+
+.bottom-header {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 100px 100px;
 }
 
 .logo.title {
