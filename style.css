@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid: 150px 1fr / 200px 1fr;
+    grid: 120px 1fr / 200px 1fr;
     font-family: helvetica, sans-serif;
 }
 
@@ -24,12 +24,24 @@ body {
 .top-header {
     display: grid;
     grid-template-columns: 100px 1fr 100px 100px 200px;
-    height: 50%;
+    gap: 10px;
+    height: 40px;
 }
 
 .bottom-header {
     display: grid;
-    grid-template-columns: 100px 1fr 100px 100px 100px;
+    grid-template-columns: 100px 1fr repeat(3, 100px);
+    gap: 10px;
+}
+
+.button {
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    width: 70px;
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
 }
 
 .logo.title {
