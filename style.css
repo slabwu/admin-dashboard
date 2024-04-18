@@ -8,6 +8,8 @@ body {
 .sidebar {
     background-color: royalblue;
     grid-area: 1 / 1 / 3 / 2;
+    display: grid;
+    grid: repeat(10, 50px) / 100px 1fr;
 }
 
 .header {
