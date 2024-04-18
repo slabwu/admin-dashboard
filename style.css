@@ -79,6 +79,11 @@ div.projects {
     gap: 20px;
 }
 
+div.announcements {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
 h3.announcements {
     grid-area: 1 / 2 / 2 / 3;
 }
