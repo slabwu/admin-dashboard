@@ -4,6 +4,7 @@ body {
     display: grid;
     grid: 120px 1fr / 200px 1fr;
     font-family: helvetica, sans-serif;
+    margin: 0;
 }
 
 .sidebar {
