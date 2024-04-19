@@ -62,7 +62,7 @@ body {
     background-color: gainsboro;
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
-    grid: 30px 1fr 30px 1fr / 2fr 1fr;
+    grid: 30px 1fr 30px 1fr / 2fr 340px;
     gap: 20px;
     padding: 10px 20px 40px;
 }
@@ -83,11 +83,15 @@ div.projects {
 div.announcements {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px 50px 20px;
+    width: 240px;
 }
 
 div.trending {
     display: grid;
     grid: repeat(4, 1fr) / 80px 1fr;
+    padding: 20px 50px 20px;
+    width: 240px;
 }
 
 h3.announcements {
@@ -110,4 +114,8 @@ h3.announcements {
     display: grid;
     grid-template-columns: repeat(3, 50px);
     justify-content: end;
+}
+
+.announcements p {
+    font-size: 12px;
 }
