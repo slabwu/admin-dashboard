@@ -100,7 +100,7 @@ h3.announcements {
 
 .project {
     display: grid;
-    grid: 1fr 100px / 10px 1fr;
+    grid: 1fr 50px / 10px 1fr;
 }
 
 .project .border {
@@ -114,6 +114,12 @@ h3.announcements {
     display: grid;
     grid-template-columns: repeat(3, 50px);
     justify-content: end;
+    margin: 0 20px 0 20px;
+}
+
+.project .icons div {
+    display: grid;
+    justify-content: center;
 }
 
 .announcements p {
@@ -128,4 +134,17 @@ h3.announcements {
 .trending h5, .trending p {
     margin: 0;
     font-size: 12px;
+}
+
+.project .text {
+    margin: 40px 20px 40px;
+}
+
+.project h3 {
+    margin: 0 0 5px;
+}
+
+.project p {
+    margin: 0;
+    max-width: 35ch;
 }
