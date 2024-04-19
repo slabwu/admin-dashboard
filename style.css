@@ -155,7 +155,7 @@ h3.announcements {
 
 .project {
     display: grid;
-    grid: 1fr 50px / 10px 1fr;
+    grid: 1fr 40px / 10px 1fr;
 }
 
 .project .border {
@@ -169,7 +169,7 @@ h3.announcements {
     display: grid;
     grid-template-columns: repeat(3, 50px);
     justify-content: end;
-    margin: 0 25px 0 20px;
+    margin: 0 25px 0 0;
 }
 
 .project i {
@@ -179,7 +179,13 @@ h3.announcements {
 
 .announcements p {
     font-size: 10px;
-    margin: 10px 0;
+    margin-top: 2px;
+    padding-bottom: 10px;
+    width: 35ch;
+}
+
+.announcement:not(.last) p {
+    border-bottom: 1px solid gainsboro;
 }
 
 .announcement h4 {
@@ -192,16 +198,19 @@ h3.announcements {
 }
 
 .project .text {
-    margin: 40px 20px 40px;
+    margin: 15px 15px 0;
 }
 
 .project h3 {
     margin: 0 0 5px;
+    font-size: 16px;
 }
 
 .project p {
     margin: 0;
-    max-width: 35ch;
+    max-width: 80ch;
+    font-size: 12px;
+    line-height: 17px;
 }
 
 img {
