@@ -142,6 +142,7 @@ div.announcements {
     grid-template-rows: 1fr 1fr 1fr;
     padding: 20px 30px 0;
     width: 200px;
+    box-shadow: 3px 3px 5px #cbd5e1;
 }
 
 div.trending {
@@ -151,6 +152,7 @@ div.trending {
     width: 200px;
     gap: 20px 5px;
     align-items: center;
+    box-shadow: 3px 3px 5px #cbd5e1;
 }
 
 h3.announcements {
@@ -160,6 +162,7 @@ h3.announcements {
 .project {
     display: grid;
     grid: 1fr 40px / 10px 1fr;
+    box-shadow: 3px 3px 5px #cbd5e1;
 }
 
 .project .border {
@@ -189,7 +192,7 @@ h3.announcements {
 }
 
 .announcement:not(.last) p {
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid #e2e8f0;
 }
 
 .announcement.last {
