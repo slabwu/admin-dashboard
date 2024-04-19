@@ -25,6 +25,25 @@ body {
     margin: 0 20px 0;
 }
 
+.logo {
+    display: grid;
+    grid: 9px 6px 9px / repeat(2, 14px);
+    gap: 4px;
+}
+
+.logo div {
+    background-color: white;
+}
+
+.logo div:nth-child(1) {
+    grid-row: 1 / span 2;
+}
+
+.logo div:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+}
+
 .top-header {
     display: grid;
     grid-template-columns: 50px 1fr 20% 50px 50px 150px;
